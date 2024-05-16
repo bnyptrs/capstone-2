@@ -1,0 +1,179 @@
+body {
+    background-color: rgba(173, 216, 230, 0.075);
+}
+
+#introduction img {
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+#introduction {
+    background-image: radial-gradient(transparent 50px, rgba(0, 255, 13, 0.2),
+    rgba(0, 153, 255, 0.3), rgba(0, 68, 255, 0.6));
+}
+
+#resume .col-12{
+    display: flex;
+    justify-content: center;
+}
+
+#resume .col-12 a {
+    color: #000080;
+    cursor: pointer;
+    h2 {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+}
+
+#resume .col-12 a:hover {
+    color: #0000ff;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    padding: 0 5px 0 5px;
+}
+
+hr {
+    border-width: 5px;
+}
+
+.bold-h2 {
+    font-weight: 700;
+}
+
+.past-projects-title h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px 0 30px 0;
+}
+
+.project-image {
+    padding: 10px;
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+.project-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.projects {
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    margin: 20px 5px 10px 5px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    aspect-ratio: 1;
+}
+
+.row.projects {
+    aspect-ratio: auto;
+    align-content: start;
+    padding: 0;
+    margin: 0;
+    border: none;
+    justify-content: center;
+}
+
+#aboutMe > .container > h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about-me-img {
+    max-height: 200px;
+    aspect-ratio: 1;
+    border-radius: 25%;
+    object-fit: cover;
+}
+
+#aboutMe .row {
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.img-div {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#aboutMe p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.freepik-img h2 {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+.freepik-img img:hover {
+    cursor: default;
+}
+
+.first {
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, rgba(0, 153, 255, 0.3), aliceblue);
+
+}
+
+.second {
+    background-color: rgba(0, 153, 255, 0.3);
+    background-image: linear-gradient(to left, rgba(0, 153, 255, 0.3), aliceblue);
+}
+
+#contactMe h2 {
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+.whatsapp.logo{
+    background-color: #25d366;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.whatsapp-container {
+    display: inline-flex;
+    align-items: center;
+    width: 50px;
+    gap: 6px;
+    margin-left: 20px;
+    margin-top: 15px;
+    h3 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.phone-number {
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-wrap: nowrap;
+}
+
+.email {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+#contactMe .col-12 {
+    align-content: center;
+    margin: 10px 0;
+}
+
+#contactMe {
+    background-image: radial-gradient(ellipse at 0 0,
+    transparent 50px, rgba(0, 255, 13, 0.2),
+    rgba(0, 153, 255, 0.3), rgba(0, 68, 255, 0.6));
+}
